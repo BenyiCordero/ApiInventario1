@@ -1,5 +1,7 @@
 package com.bcss.apiInventario.domain;
 
+//Falta agregar atributo codigo y imagen_url
+
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -19,6 +21,7 @@ public class Producto {
     private String descripcion;
     @Column(name = "gramaje")
     private String gramaje;
-
+    @OneToOne
+    private Imagen imagen;
 
 }
