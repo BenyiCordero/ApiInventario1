@@ -19,6 +19,8 @@ public class Producto {
     private String descripcion;
     @Column(name = "gramaje")
     private String gramaje;
+    @Column (name = "codigo")
+    private String codigo;
     @OneToOne
     private Imagen imagen;
 
