@@ -1,7 +1,5 @@
 package com.bcss.apiInventario.domain;
 
-//Falta agregar atributo codigo y imagen_url
-
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Data;
